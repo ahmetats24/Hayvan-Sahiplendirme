@@ -1,0 +1,42 @@
+#yorumlar{
+    background-color: rgb(221, 217, 217);
+    padding-right: 2px;
+    
+    
+}
+.yorular_baslik h1{
+    display: block;
+    border-bottom: 2px solid #6999b1;
+    position: relative;
+    color: #385d6f;
+    padding-right: 2px;
+   
+}
+#yorumlar #kullanıcı_ad h4{
+    padding: 2px;
+    
+   
+
+}
+
+#yorumlar #kullanıcı_ad #yorum{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-right: 2px;
+    font-size: larger;
+}
+#yorumlar #kullanıcı_ad #yorum span{
+    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+div {
+    display: block;
+}

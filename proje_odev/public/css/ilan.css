@@ -1,0 +1,358 @@
+a {
+    text-decoration: none;
+}
+.petcil_line {
+    float: left;
+    width: 100%;
+    line-height: 40px;
+    margin-right: 10px;
+    background: #333;
+    font-weight: bolder;
+    text-align: center;
+    position: fixed;
+
+}
+body {
+    font-size: 12px;
+    color: #333;
+    background: url("public/images/msg-bg.webp") #efefef;
+    word-wrap: break-word;
+}
+#ust {
+    float: left;
+    width: 100%;
+    height: 70px;
+    border-bottom: 5px solid #e5e5e5;
+    background: #fff;
+    padding-top: 5%;
+    padding-bottom: 5px;
+}
+#ust #tasiyici {
+    width: 1000px;
+    height: 70px;
+    margin: 0 auto;
+}
+#ust #tasiyici #menu {
+    float: left;
+    margin-left: 10px;
+    padding-top: 26px;
+    padding-bottom: 11px;
+}
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#ust #tasiyici #login {
+    float: right;
+    height: 50px;
+    margin-top: 10px;
+}
+#ust #tasiyici #menu li {
+    float: left;
+    padding-left: 5px;
+    position: relative;
+    display: list-item;
+    list-style-type: none;
+    font-size: large;
+}
+#ust #tasiyici #menu li a {
+
+    text-decoration: none;
+    color: #666;
+    line-height: 24px;
+    display: inline-block;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 2px;
+    border-radius: 2px;
+    cursor: pointer
+}
+#ust #tasiyici #login a {
+    float: right;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 6px;
+    padding: 7px;
+    color: #666;
+    text-align: center;
+    cursor: pointer;
+}
+#ust #tasiyici img.logo {
+    float: left;
+    margin-left: -7px;
+    margin-top: 17px;
+    width: 120px;
+    height: 40px;
+}
+#ust #tasiyici #login a span {
+    float: left;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+#ust #tasiyici #login a img {
+    float: left;
+    width: 24px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+body, body textarea, h1, h2, h3, h4, h5 {
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+/*baş kısımı bu kadar */
+
+#orta .bolum1 {
+    background-color:white;
+    float: left;
+    width: 980px;
+
+}
+#orta .bolum1 .sol {
+    float: left;
+    width: 459px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+#orta .bolum1 .sol .resim {
+    float: left;
+    width: 459px;
+    padding-top: 10px;
+}
+#orta .bolum1 .sol .resim #manset {
+    float: left;
+    width: 100%;
+    height: 344px;
+    margin-bottom: 5px;
+}
+#orta .bolum1 .sol .photos {
+    float: left;
+    width: 465px;
+}
+#orta .bolum1 .sol .photos li.eleman {
+    float: left;
+    width: 82px;
+    max-width: 82px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #e5e5e5;
+    padding: 2px;
+}
+#orta .bolum1 .sol .photos li img {
+    float: left;
+    width: 100%;
+    height: 61.5px;
+}
+
+/*orta*/
+#orta .bolum1 .orta {
+    float: left;
+    width: 279px;
+    padding: 5px 15px 10px 5px;
+}
+#orta .bolum1 .orta .satir.fiyat {
+    float: left;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    color: #c00;
+    font-size: 18px;
+    padding-top: 10px;
+}
+#orta .bolum1 .orta .satir.konum {
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#orta .bolum1 .orta .satir.konum span {
+    float: left;
+    margin-left: 0;
+    color: #333;
+    font-weight: bolder;
+}
+#orta .bolum1 .orta .satir.konum span a {
+    text-decoration: none;
+    color: #0372a9;
+}
+#orta .bolum1 .orta .satir {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    width: 279px;
+    border-bottom: 1px solid #efefef;
+}
+#orta .bolum1 .sag {
+    float: left;
+    width: 210px;
+}
+
+#govde #orta .bolum1 .sag .bireysel_kart {
+    float: left;
+    width: 210px;
+    border: 1px solid #e1e1e1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#govde #orta .bolum1 .sag .bireysel_kart .ust {
+    float: left;
+    width: 100%;
+    min-height: 80px;
+    background: #f1f1f1;
+    border-bottom: 3px solid #fff;
+}
+#orta .bolum1 .sag .bireysel_kart .orta {
+    float: left;
+    width: 190px;
+    text-align: center;
+    background: #f9f9f9;
+    padding-top: 0;
+}
+#orta .bolum1 .sag .bireysel_kart .orta img {
+    width: 60px;
+    height: 60px;
+    border-radius: 33px;
+    margin-top: -35px;
+    border: 3px solid #fff;
+    margin-left: 7px;
+}
+#orta .bolum1 .sag .bireysel_kart .alt {
+    float: left;
+    width: 100%;
+    padding-bottom: 40px;
+    background: #f9f9f9;
+    text-align: center;
+}
+#orta .bolum1 .sag .bireysel_kart .alt span {
+    float: left;
+    width: 100%;
+    font-size: 13px;
+    text-align: center;
+    color: #333;
+    font-weight: bolder;
+}
+#orta .bolum1 .sag .bireysel_kart .alt label.hesap_turu {
+    float: left;
+    width: 100%;
+    font-size: 11px;
+    text-align: center;
+    color: #666;
+    margin-top: 5px;
+}
+#orta .bolum1 .sag .bireysel_kart .alt ul {
+    float: left;
+    width: 150px;
+    margin-top: 10px;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 21px;
+}
+#govde #orta .bolum1 .sag .bireysel_kart .alt ul label {
+    float: left;
+    margin-right: 10px;
+    font-weight: bolder;
+}
+#orta .bolum1 .sag .bireysel_kart .alt ul p {
+    float: right;
+}
+#orta .bolum1 .sag .bireysel_kart .alt ul {
+    float: left;
+    width: 150px;
+    margin-top: 10px;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 21px;
+}
+#orta .bolum1 .sag .bireysel_kart .alt .button {
+    float: left;
+    width: 172px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    margin-left: 21px;
+    margin-top: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: greenyellow;
+}
+#orta .bolum1 .sag .bireysel_kart .alt .favori {
+    text-align: center;
+    font-size: 12px;
+    color: #0372a9;
+    margin-top: 15px;
+    text-decoration: none;
+    border: none;
+    background: 0 0;
+    cursor: pointer;
+}
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+div {
+    display: block;
+}
+body, body textarea, h1, h2, h3, h4, h5 {
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+/*alt*/
+#orta .bolum2 {
+    float: left;
+    width: 980px;
+    padding-bottom: 10px;
+    background-color: rgb(163, 157, 157);
+}
+#orta .bolum2 .tepe {
+    float: left;
+    width: 980px;
+    border-bottom: 1px solid #e1e1e1;
+    margin-left: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#orta .bolum2 .tepe label.aktif {
+    padding-bottom: 11px;
+    margin-bottom: -1px;
+    background: #fff;
+    border-top: 2px solid #0372a9;
+}
+#orta .bolum2 .tepe label {
+    float: left;
+    min-width: 56px;
+    border-top: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+    border-left: 1px solid #e1e1e1;
+    font-weight: bolder;
+    background: #f9f9f9;
+    cursor: pointer;
+    text-align: center;
+    color: #666;
+    margin-right: 2px;
+    padding: 10px 15px;
+}
+#orta .bolum2 .aciklama {
+    float: left;
+    font-size: 13px;
+    width: 960px;
+    min-height: 200px;
+    padding: 30px 10px;
+    line-height: 25px;
+    background-color: white;
+}
+#orta .bolum2 .aciklama p {
+    margin-top: 10px;
+}

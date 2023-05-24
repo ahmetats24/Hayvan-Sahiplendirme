@@ -1,0 +1,158 @@
+a {
+    text-decoration: none;
+}
+.petcil_line {
+    float: left;
+    width: 100%;
+    line-height: 40px;
+    margin-right: 10px;
+    background: #333;
+    font-weight: bolder;
+    text-align: center;
+    position: fixed;
+
+}
+#ust {
+    float: left;
+    width: 100%;
+    height: 70px;
+    border-bottom: 5px solid #e5e5e5;
+    background: #fff;
+    padding-top: 5%;
+    padding-bottom: 5px;
+}
+#ust #tasiyici {
+    width: 1000px;
+    height: 70px;
+    margin: 0 auto;
+}
+#ust #tasiyici #menu {
+    float: left;
+    margin-left: 10px;
+    padding-top: 26px;
+    padding-bottom: 11px;
+}
+#ust #tasiyici #menu li a {
+    text-decoration: none;
+    color: #666;
+    line-height: 24px;
+    display: inline-block;
+    float: left;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 2px;
+    border-radius: 2px;
+}
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#ust #tasiyici #login {
+    float: right;
+    height: 50px;
+    margin-top: 10px;
+}
+#ust #tasiyici #menu li {
+    float: left;
+    padding-left: 5px;
+    position: relative;
+    list-style-type: style none;
+    display: list-item;
+    list-style-type: none;
+    font-size: large;
+}
+body{
+    background-image: url("public/images/msg-bg.png");
+    background-size: auto;
+    background-repeat: repeat;
+
+
+}
+#ust #tasiyici #login a {
+    float: right;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 6px;
+    padding: 7px;
+    color: #666;
+    text-align: center;
+    cursor: pointer;
+}
+#ust #tasiyici img.logo {
+    float: left;
+    margin-left: -7px;
+    margin-top: 17px;
+    width: 120px;
+    height: 40px;
+}
+#ust #tasiyici #login a span {
+    float: left;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+#ust #tasiyici #login a img {
+    float: left;
+    width: 24px;
+}
+a{
+    text-decoration: none;
+}
+body, body textarea, h1, h2, h3, h4, h5 {
+    font-family: Arial,Helvetica,sans-serif;
+}
+#loginyazisi{
+    font-size: xx-large;
+    color: black;
+    margin-left: 3%;
+    opacity: 0.8;
+    width: max-content;
+    margin-left: 13%;
+
+
+}
+#resim{
+
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    float:left;
+
+    margin: 8%;
+     margin-top: 15%;
+}
+#arkaplan{
+
+ width: 400px;
+ height: 400px;
+ border-radius: 45px;
+ float: left;
+ margin-top: 12%;
+ margin-left: 12%;
+ position: relative;
+
+}
+#tablo{
+    backdrop-filter: blur(2px);
+    width: 400px;
+    height: 400px;
+    border-style: solid;
+    border-radius: 45px;
+    border-color: rgb(0, 0, 0);
+
+}
+form{
+    margin: auto;
+    margin-left: 15%;
+}
+input{
+ width: 240px;
+ height: 25px;
+ opacity: 0.7;
+}
+#girisbuton{
+    opacity: 1;
+}

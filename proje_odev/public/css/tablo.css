@@ -1,0 +1,166 @@
+body{
+ 
+    font-size: 12px;
+    color: #333;
+    background: url("msg-bg.webp") #efefef;
+    word-wrap: break-word;
+   
+}
+
+
+#orta{
+    float: left;
+    width: 640px;
+    background-color:white;
+    padding: 20px;
+    float: left;
+    width: 1000px;
+    margin-top: 10px;
+    
+   
+}
+#orta #kayit_ol_yazi{
+    background-color: rgb(206, 196, 196);
+}
+#orta #kayit_ol_yazi h5{
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    float: left;
+    color: #0372a9;
+    font-size: 12px;
+}
+h5{
+    font-weight: 700;
+    text-decoration: none;
+    color: #333;
+    font-size: 11px
+}
+#orta .baslik {
+    float: left;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #e9e9e9;
+    margin-bottom: 10px;
+}
+#orta .baslik ul{
+    float: left;
+    width: 150px;
+    margin-top: 11px;
+    font-size: 12px;
+}
+#orta .satir {
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+#orta .satir select{
+    float: left;
+    width: 222px;
+    border: 1px solid #e9e9e9;
+    font-size: 12px;
+    color: gray;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+#orta .baslik h5{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+}
+#orta .satir ul {
+    float: left;
+    width: 150px;
+    margin-top: 11px;
+    font-size: 12px;
+}
+#orta .satir input {
+    float: left;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+    font-size: 12px;
+    color: gray;
+    border-radius: 2px;
+}
+#orta .satir span {
+    float: left;
+    margin-top: 12px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: gray;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+#orta .satir .kayit{
+    float: right;
+    width: 150px;
+    text-align: center;
+    background: #0095c2;
+    color: #fff;
+    font-size: 12px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#sag{
+    background-color: white;
+    float: left;
+    width: 300px;
+    margin-left: 10px;
+}
+#sag .bilgiler{
+    font-size: 12px;
+    color: #333;
+    margin: 4px;
+}
+#sag .bilgiler h5{
+    width: 100%;
+    padding-bottom: 19px;
+    float: left;
+    font-size: 12px;
+    color: #333;
+}
+
+#sag .bilgiler ul{
+    width: 100%;
+    padding-bottom: 19px;
+    border-bottom: 1px solid #e9e9e9;
+    float: left;
+}
+
+#sag .bilgiler ul a{
+    float: left;
+    width: 70%;
+    text-align: center;
+    text-decoration: none;
+    color: #0095c2;
+}
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+div {
+    display: block;
+}

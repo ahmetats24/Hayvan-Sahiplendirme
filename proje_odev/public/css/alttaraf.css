@@ -1,0 +1,169 @@
+#tutucu {
+    width: 1000px;
+    margin: 0 auto;
+}
+#govde {
+    float: left;
+    width: 1000px;
+    margin-top: 10px;
+}
+#govde #sol {
+    float: left;
+    width: 252px;
+}
+#govde #sol #nav {
+    float: left;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    user-select: none;
+}
+#govde #sol #nav .ust {
+    float: left;
+    width: 230px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #e9e9e9;
+    padding: 14px 10px;
+}
+#govde #sol #nav .ust span {
+    float: left;
+    color: #333;
+    font-weight: 700;
+}
+#govde #sol #nav ul {
+    float: left;
+    width: 230px;
+    padding: 14px 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: #fff;
+    list-style-type:none
+}
+#govde #sol #nav ul li {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #f1f1f1;
+}
+#govde #sol #nav ul li a {
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    color: #333;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+#govde #sol #nav ul li a span {
+ color: black;
+ font-size: 15px
+
+}
+#govde #sag #manset {
+    width: 470px;
+    border: 1px solid #e5e5e5;
+    height: 250px;
+    background: #fff;
+    margin-top: 1px;
+    float: left;
+ 
+}
+#govde #sag #manset h1 {
+    float: left;
+    width: 456px;
+    color: #fff;
+    font-size: 12px;
+    background: #de1a22;
+    padding: 12px 10px 13px;
+}
+#govde #sag #manset p {
+    float: left;
+    width: 456px;
+    padding: 10px 10px 10px;
+    color: #333;
+    font-size: 14px;
+    line-height: 18px;
+}
+#govde #sag .yenipetler {
+    float: left;
+    width: 740px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#govde #sag .yenipetler .ust {
+    float: left;
+    width: 708px;
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    padding: 15px;
+    border-bottom: 1px solid #e2e2e2;
+}
+#govde #sag .yenipetler .ust h2 {
+    float: left;
+    color: #333;
+    font-size: 12px;
+}
+#govde #sag .yenipetler ul {
+    float: left;
+    width: 750px;
+    border-bottom: 1px solid #f1f1f1;
+    padding-top: 12px;
+    margin-left: -10px;
+}
+#govde #sag .yenipetler ul li {
+    float: left;
+    width: 175px;
+    height: 260px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #efefef;
+    cursor: pointer;
+    text-align: center;
+    background: #fff;
+}
+#govde #sag .yenipetler ul li img {
+    max-width: 175px;
+    height: 136px;
+    min-height: 136px;
+}
+#govde #sag .yenipetler ul li .kategori {
+    width: 155px;
+    padding: 10px 10px 5px;
+    float: left;
+    color: #333;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bolder;
+}
+#govde #sag .yenipetler ul li h3 {
+    float: left;
+    width: 165px;
+    color: #333;
+    cursor: pointer;
+    font-size: 11px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: 45px;
+    height: 45px;
+}
+#govde #sag .yenipetler ul li .fiyat {
+    float: left;
+    width: 175px;
+    font-size: 12px;
+    color: #c00;
+    padding-bottom: 12px;
+}
+body, body textarea, h1, h2, h3, h4, h5 {
+    font-family: Arial,Helvetica,sans-serif;
+}
